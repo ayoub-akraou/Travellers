@@ -916,7 +916,8 @@ footer .icons .youtube:hover::after {
   background-size: cover;
   background-repeat: no-repeat;
   height: 50rem;
-  width: 100rem;
+  width: calc(100% - 2rem);
+  max-width: 100rem;
   background-color: wheat;
   margin: auto;
   display: flex;
