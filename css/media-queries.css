@@ -181,6 +181,9 @@
   footer .icons {
     margin: 0 auto;
   }
+  #popup .box {
+  width: 100%
+  }
 }
 /****** Mobile M screen ******/
 
