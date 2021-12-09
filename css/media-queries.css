@@ -1,0 +1,226 @@
+/****** Desktop screen ******/
+
+@media (max-width: 1200px) {
+  .connected {
+    background-size: 50% 84%;
+  }
+}
+/****** Laptop screen ******/
+
+@media (max-width: 1024px) {
+  header > .container .box:first-child {
+    padding-bottom: 6rem;
+  }
+  header > .container .box:last-child img {
+    width: 364.8px;
+    height: 549.6px;
+  }
+  .connected {
+    background-size: 50% 66%;
+    margin-bottom: 2rem;
+  }
+  .connected .box {
+    flex-basis: unset;
+    padding-top: 2rem;
+  }
+  .connected .comment {
+    bottom: 11%;
+  }
+  .popular .container {
+    padding: 0;
+  }
+  .pricing div.flex {
+    max-width: calc(100% - 6rem);
+  }
+}
+/****** Tablet screen ******/
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  nav a {
+    font-size: 1.4rem;
+  }
+  header > .container .box:first-child {
+    padding-right: 0;
+  }
+  header > .container .box:last-child img {
+    min-width: 320px;
+    height: auto;
+  }
+  .pricing div.flex {
+    gap: 2rem;
+  }
+  .pricing .box {
+    padding: 2rem;
+  }
+  .big-title,
+  h1:first-of-type {
+    white-space: normal;
+  }
+}
+/****** Mobile L screen ******/
+
+@media (max-width: 425px) {
+  .cnt-open-close {
+    display: inline-block;
+  }
+  .big-title {
+    font-size: 3.2rem;
+    white-space: normal;
+    line-height: 1.4;
+  }
+  nav {
+    overflow: hidden;
+    height: 60px;
+  }
+  nav ul.container {
+    flex-direction: column;
+    height: 100vh;
+    gap: 4rem;
+  }
+  nav a {
+    font-size: 1.8;
+    font-weight: 600;
+  }
+  nav .logo {
+    order: -2;
+    margin-bottom: 4rem;
+  }
+  nav .btn {
+    order: -1;
+  }
+  header > .container {
+    flex-direction: column;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.7)
+      ),
+      url(../images/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  header > .container .box:first-child {
+    padding: 7rem 0 11rem;
+    flex-basis: unset;
+  }
+  header .download {
+    padding-left: 1rem;
+    margin-top: 4rem;
+  }
+  header .description {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  header .box:last-of-type {
+    display: none;
+  }
+  header .description {
+    display: inline;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-shadow: 0 0 #000;
+  }
+  header .container .cnt {
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.4);
+  }
+  .down {
+    display: none;
+  }
+  .connected {
+    background-image: unset;
+  }
+  .connected .container {
+    justify-content: center;
+  }
+  .connected .comment {
+    display: none;
+  }
+  .popular .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .pricing div.flex {
+    flex-direction: column;
+    gap: 3rem;
+    padding: 0 1rem;
+  }
+  .pricing .box {
+    padding: 3rem;
+  }
+  .pricing .btn {
+    margin: 0 auto;
+    width: 85%;
+  }
+  .download .container {
+    padding: 3rem 0;
+  }
+  footer .cnt-1 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 5rem;
+    padding-right: unset;
+    padding-left: unset;
+  }
+  footer form,
+  footer .box:last-child p {
+    margin-bottom: 1rem;
+  }
+  footer .navigation {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  footer .logo {
+    width: 100%;
+    margin: unset;
+    text-align: center;
+  }
+  footer .icons {
+    margin: 0 auto;
+  }
+}
+/****** Mobile M screen ******/
+
+@media (max-width: 375px) {
+  .container {
+    max-width: calc(100% - 4rem);
+  }
+  header .title {
+    font-size: 5rem;
+  }
+  header .description br {
+    display: none;
+  }
+  .download .container {
+    padding: 3rem 1rem;
+  }
+  footer .cnt-1 {
+    padding: 3rem 2.5rem;
+  }
+  footer .cnt-1 ul a {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+  footer .title {
+    margin-bottom: 1.5rem;
+  }
+  footer .navigation {
+    padding: 2rem 0;
+  }
+}
+/****** Mobile S screen ******/
+
+@media (max-width: 320px) {
+  .pricing .btn {
+    width: 100%;
+  }
+  .download h1 {
+    font-size: 3.8rem;
+  }
+  footer .cnt-1 {
+    padding: 3rem 0;
+  }
+}
