@@ -1,2 +1,2 @@
 ### Travellers: interactive app website with just html and css.
-> try it :[ https://ayoub-akraou.github.io/App-Website/](https://ayoub-akraou.github.io/Travellers/)
+> try it: https://ayoub-akraou.github.io/Travellers/
